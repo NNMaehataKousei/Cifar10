@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cifar10"
+version = "0.1.0"
+description = ""
+authors = ["NNMaehataKousei <nn.maehata@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+tensorflow = "^2.7.0"
+numpy = "^1.21.4"
+keras = "^2.7.0"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
